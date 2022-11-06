@@ -4,6 +4,7 @@
 
 @media screen and (max-width: 600px) {
     header{
+        min-height: max-content;
         padding: 0 !important;
     }
     .theme-btn{
@@ -140,6 +141,9 @@
 }
 
 @media screen and (max-width:1432px){
+    header{
+        min-height: max-content;
+    }
     .container{
         padding: 7rem 11rem;
     }
@@ -220,6 +224,9 @@
 }
 
 @media screen and (max-width:970px){
+    header{
+        min-height: max-content;
+    }
     .container{
         padding: 7rem 6rem;
     }
@@ -254,6 +261,19 @@
     }
 }
 @media screen and (max-width:700px){
+    header{
+        min-height: max-content;
+    }
+    .left-header{
+        .h-shape{
+            display: none;
+        }
+        .image{
+            width: 90% !important;
+            margin: 0 auto !important;
+            
+        }
+    }
     .container{
         padding: 7rem 3rem;
     }
